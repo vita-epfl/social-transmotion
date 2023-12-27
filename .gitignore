@@ -1,0 +1,58 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore cache and temporary files
+__pycache__/
+*.pyo
+*.swp
+*.swo
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore log files
+*.log
+
+# Ignore package lock files
+pip-lock.txt
+poetry.lock
+
+# Ignore generated documentation
+docs/_build/
+
+# Ignore test coverage reports
+htmlcov/
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore database files
+*.db
+
+# Ignore generated files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore cache files
+*.cache
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+*.ndjson
+experiments/*
+data/*

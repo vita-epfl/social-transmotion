@@ -1,0 +1,11 @@
+from collections import namedtuple
+SceneRow = namedtuple('Row', ['scene', 'pedestrian', 'start', 'end', 'fps', 'tag'])
+SceneRow.__new__.__defaults__ = (None, None, None, None, None, None)
+
+## extract all for jta
+TrackRow_all_jta = namedtuple('Row', ['frame', 'pedestrian', 'x', 'y', 'h', 'w', 'l', 'rot_z', 'bb_left', 'bb_top', 'bb_width', 'bb_height', 'x0', 'x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7', 'x8', 'x9', 'x10', 'x11', 'x12', 'x13', 'x14', 'x15', 'x16', 'x17', 'x18', 'x19', 'x20', 'x21', 'y0', 'y1', 'y2', 'y3', 'y4', 'y5', 'y6', 'y7', 'y8', 'y9', 'y10', 'y11', 'y12', 'y13', 'y14', 'y15', 'y16', 'y17', 'y18', 'y19', 'y20', 'y21', 'z0', 'z1', 'z2', 'z3', 'z4', 'z5', 'z6', 'z7', 'z8', 'z9', 'z10', 'z11', 'z12', 'z13', 'z14', 'z15', 'z16', 'z17', 'z18', 'z19', 'z20', 'z21',  'xx0', 'xx1', 'xx2', 'xx3', 'xx4', 'xx5', 'xx6', 'xx7', 'xx8', 'xx9', 'xx10', 'xx11', 'xx12', 'xx13', 'xx14', 'xx15', 'xx16', 'xx17', 'xx18', 'xx19', 'xx20', 'xx21', 'yy0', 'yy1', 'yy2', 'yy3', 'yy4', 'yy5', 'yy6', 'yy7', 'yy8', 'yy9', 'yy10', 'yy11', 'yy12', 'yy13', 'yy14', 'yy15', 'yy16', 'yy17', 'yy18', 'yy19', 'yy20', 'yy21', 'prediction_number', 'scene_id'])
+TrackRow_all_jta.__new__.__defaults__ = (None, None, None, None, None, None, None, None, None, None, None, None, None, None,None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None,None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)
+
+## JRDB 2dbb_3dbb
+TrackRow_jrdb_2dbb_3dbb = namedtuple('Row', ['frame', 'pedestrian', 'x', 'y', 'h', 'w', 'l', 'rot_z', 'bb_left', 'bb_top', 'bb_width', 'bb_height', 'prediction_number', 'scene_id'])
+TrackRow_jrdb_2dbb_3dbb.__new__.__defaults__ = (None, None, None, None, None, None, None, None, None, None, None, None, None, None)

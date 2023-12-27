@@ -1,0 +1,29 @@
+SEED: 0
+TRAIN:
+    batch_size: 4
+    epochs: 50
+    num_workers: 0
+    input_track_size: 9
+    output_track_size: 12
+    lr: 0.0001
+    lr_decay: 1
+    lr_drop: true
+    aux_weight: 0.2
+    val_frequency: 5
+    optimizer: "adam"
+    max_grad_norm: 1.0
+DATA:
+    train_datasets:
+        - jta_all_visual_cues
+MODEL:
+    seq_len: 435 # 1*21 + (token_num-1)*9 ,seq length for local-former, 219 for 2d/3d pose, 30 for 2d/3d bb, 21 for baseline, 228 for 3dbox+3dpose
+    token_num: 47 # number of tokens for local-former, 23 or 2d/3d pose, 2 for 2d/3d bb, 1 for baseline
+    num_layers_local: 6
+    num_layers_global: 3 
+    num_heads: 4
+    dim_hidden: 128 
+    dim_feedforward: 1024 
+    type: "transmotion"
+    eval_single: false
+    checkpoint: "" ##checkpoint.pth.tar
+    output_scale: 1 
