@@ -3,7 +3,9 @@
 <h3>Saeed Saadatnejad*, Yang Gao*, Kaouther Messaoud, Alexandre Alahi
 </h3>
 
- 
+
+[[arXiv](https://arxiv.org/abs/2312.16168)]
+
 <image src="docs/social-transmotion.png" width="600">
 </div>
 
@@ -59,3 +61,12 @@ For the ease of use, we have also provided the trained model in the release sect
 # Work in Progress
 
 This repository is work-in-progress and will continue to get updated and improved over the coming months.
+
+```
+@article{saadatnejad2023socialtransmotion,
+      title={Social-Transmotion: Promptable Human Trajectory Prediction}, 
+      author={Saeed Saadatnejad and Yang Gao and Kaouther Messaoud and Alexandre Alahi},
+      year={2023},
+      journal={arXiv preprint arXiv:2312.16168},
+}
+```
