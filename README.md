@@ -2,7 +2,7 @@
 <h1> Social-Transmotion:<br>  Promptable Human Trajectory Prediction </h1>
 <h3>Saeed Saadatnejad*, Yang Gao*, Kaouther Messaoud, Alexandre Alahi
 </h3>
-
+<h4> <i> International Conference on Learning Representations (ICLR), 2024 </i></h4>
 
 [[arXiv](https://arxiv.org/abs/2312.16168)]
 
@@ -63,10 +63,10 @@ For the ease of use, we have also provided the trained model in the release sect
 This repository is work-in-progress and will continue to get updated and improved over the coming months.
 
 ```
-@article{saadatnejad2023socialtransmotion,
+@InProceedings{saadatnejad2024socialtransmotion,
       title={Social-Transmotion: Promptable Human Trajectory Prediction}, 
       author={Saeed Saadatnejad and Yang Gao and Kaouther Messaoud and Alexandre Alahi},
-      year={2023},
-      journal={arXiv preprint arXiv:2312.16168},
+      year={2024},
+      booktitle={International Conference on Learning Representations (ICLR)},
 }
 ```
