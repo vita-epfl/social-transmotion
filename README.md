@@ -26,7 +26,7 @@ Install the requirements using `pip`:
 pip install -r requirements.txt
 ```
 
-We have conveniently added the preprocessed data to the release section of the repository.
+We have conveniently added the preprocessed data to the release section of the repository (for license details, please refer to the original papers).
 Place the data subdirectory of JTA under `data/jta_all_visual_cues` and the data subdirectory of JRDB under `data/jrdb_2dbox` of the repository.
 
 # Training and Testing
