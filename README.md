@@ -2,20 +2,19 @@
 <h1> Social-Transmotion:<br>  Promptable Human Trajectory Prediction </h1>
 <h3>Saeed Saadatnejad*, Yang Gao*, Kaouther Messaoud, Alexandre Alahi
 </h3>
-<h4> <i> International Conference on Learning Representations (ICLR), 2024 </i></h4>
+<h4> <i> International Conference on Learning Representations (ICLR), Austria, May 2024 </i></h4>
 
-[[arXiv](https://arxiv.org/abs/2312.16168)]
+[[Paper](https://arxiv.org/abs/2312.16168)] [[ICLR page](https://iclr.cc/virtual/2024/poster/18604)] [[Poster](docs/Poster.pdf)] [[Slides](docs/iclr_slides.pdf)]
 
-<image src="docs/social-transmotion.png" width="600">
+
+<image src="docs/social-transmotion.png" width="500">
+
 </div>
 
 <div align="center"> <h3> Abstract </h3>  </div>
 <div align="justify">
 
-Accurate human trajectory prediction is crucial for applications such as autonomous vehicles, robotics, and surveillance systems. Yet, existing models often fail to fully leverage the non-verbal social cues human subconsciously communicate when navigating the space.
-To address this, we introduce Social-Transmotion, a generic model that exploits the power of transformers to handle diverse and numerous visual cues, capturing the multi-modal nature of human behavior. We translate the idea of a prompt from Natural Language Processing (NLP) to the task of human trajectory prediction, where a prompt can be a sequence of x-y coordinates on the ground, bounding boxes or body poses. This, in turn, augments trajectory data, leading to enhanced human trajectory prediction.
-Our model exhibits flexibility and adaptability by capturing spatiotemporal interactions between pedestrians based on the available visual cues, whether they are poses, bounding boxes, or a combination thereof.
-By the masking technique, we ensure our model's effectiveness even when certain visual cues are unavailable, although performance is further boosted with the presence of comprehensive visual data.
+Accurate human trajectory prediction is crucial for applications such as autonomous vehicles, robotics, and surveillance systems. Yet, existing models often fail to fully leverage the non-verbal social cues human subconsciously communicate when navigating the space. To address this, we introduce Social-Transmotion, a generic Transformer-based model that exploits diverse and numerous visual cues to predict human behavior. We translate the idea of a prompt from Natural Language Processing (NLP) to the task of human trajectory prediction, where a prompt can be a sequence of x-y coordinates on the ground, bounding boxes in the image plane, or body pose keypoints in either 2D or 3D. This, in turn, augments trajectory data, leading to enhanced human trajectory prediction. Using masking technique, our model exhibits flexibility and adaptability by capturing spatiotemporal interactions between agents based on the available visual cues. We delve into the merits of using 2D versus 3D poses, and a limited set of poses. Additionally, we investigate the spatial and temporal attention map to identify which keypoints and time-steps in the sequence are vital for optimizing human trajectory prediction. Our approach is validated on multiple datasets, including JTA, JRDB, Pedestrians and Cyclists in Road Traffic, and ETH-UCY.
 </br>
 
 
