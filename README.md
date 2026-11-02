@@ -70,7 +70,19 @@ This repository is work-in-progress and will continue to get updated and improve
 }
 ```
 
-Feel free to check the follow-up work, Multi-Transmotion, a pre-trained model for multimodal multitask human motion prediction.
+Feel free to check the follow-up work, OmniTraj (strong zero-shot human trajectory predictor) and Multi-Transmotion (multimodal multitask human motion predictor).
+```
+@article{gao2027omnitraj,
+  title={Omnitraj: Pre-training on heterogeneous data for adaptive and zero-shot human trajectory prediction},
+  author={Gao, Yang and Luan, Po-Chien and Messaoud, Kaouther and Feng, Lan and Alahi, Alexandre},
+  journal={Transportation Research Part C: Emerging Technologies},
+  volume={194},
+  pages={105971},
+  year={2027},
+  publisher={Elsevier}
+}
+```
+
 ```
 @inproceedings{gao2024multi,
     title={Multi-Transmotion: Pre-trained Model for Human Motion Prediction},
